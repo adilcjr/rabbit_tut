@@ -1,0 +1,54 @@
+2019-08-29 17:18:38 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Consumer:init/1
+    pid: <0.250.0>
+    registered_name: []
+    exception exit: {{{shutdown,{server_initiated_close,406,<<"PRECONDITION_FAILED - inequivalent arg 'durable' for queue 'bol_queue' in vhost '/': received 'true' but current is 'false'">>}},{gen_server,call,[<0.264.0>,{call,{'queue.declare',0,<<"bol_queue">>,false,true,false,false,false,[{<<"x-dead-letter-exchange">>,longstr,<<>>},{<<"x-dead-letter-routing-key">>,longstr,<<"bol_queue_error">>}]},none,<0.250.0>},60000]}},[{gen_server,call,3,[{file,"gen_server.erl"},{line,223}]},{'Elixir.AMQP.Queue',declare,3,[{file,"lib/amqp/queue.ex"},{line,35}]},{'Elixir.Consumer',setup_queue,1,[{file,"lib/consumer.ex"},{line,49}]},{'Elixir.Consumer',init,1,[{file,"lib/consumer.ex"},{line,16}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,374}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,342}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}
+    ancestors: [<0.248.0>,<0.76.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.248.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 1581
+  neighbours:
+    neighbour: [{pid,<0.248.0>},{registered_name,[]},{initial_call,{'Elixir.IEx.Evaluator',init,['Argument__1','Argument__2','Argument__3','Argument__4']}},{current_function,{io,execute_request,2}},{ancestors,[<0.76.0>]},{message_queue_len,0},{links,[<0.250.0>]},{trap_exit,false},{status,waiting},{heap_size,1598},{stack_size,49},{reductions,2117},{current_stacktrace,[{io,execute_request,2,[{file,"io.erl"},{line,579}]},{io,columns,1,[{file,"io.erl"},{line,121}]},{'Elixir.IEx.Config',columns,0,[{file,"lib/iex/config.ex"},{line,22}]},{'Elixir.IEx.Config',width,0,[{file,"lib/iex/config.ex"},{line,16}]},{'Elixir.Keyword',put_new_lazy,3,[{file,"lib/keyword.ex"},{line,610}]},{'Elixir.IEx.Config',inspect_opts,0,[{file,"lib/iex/config.ex"},{line,113}]},{'Elixir.IEx.Evaluator',io_inspect,1,[{file,"lib/iex/evaluator.ex"},{line,285}]},{'Elixir.IEx.Evaluator',handle_eval,5,[{file,"lib/iex/evaluator.ex"},{line,260}]}]}]
+2019-08-29 17:22:07 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Consumer:init/1
+    pid: <0.316.0>
+    registered_name: []
+    exception exit: {{{shutdown,{server_initiated_close,406,<<"PRECONDITION_FAILED - inequivalent arg 'durable' for queue 'bol_queue' in vhost '/': received 'true' but current is 'false'">>}},{gen_server,call,[<0.328.0>,{call,{'queue.declare',0,<<"bol_queue">>,false,true,false,false,false,[{<<"x-dead-letter-exchange">>,longstr,<<>>},{<<"x-dead-letter-routing-key">>,longstr,<<"bol_queue_error">>}]},none,<0.316.0>},60000]}},[{gen_server,call,3,[{file,"gen_server.erl"},{line,223}]},{'Elixir.AMQP.Queue',declare,3,[{file,"lib/amqp/queue.ex"},{line,35}]},{'Elixir.Consumer',setup_queue,1,[{file,"lib/consumer.ex"},{line,49}]},{'Elixir.Consumer',init,1,[{file,"lib/consumer.ex"},{line,16}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,374}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,342}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}
+    ancestors: [<0.302.0>,<0.76.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.302.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 1402
+  neighbours:
+    neighbour: [{pid,<0.302.0>},{registered_name,[]},{initial_call,{'Elixir.IEx.Evaluator',init,['Argument__1','Argument__2','Argument__3','Argument__4']}},{current_function,{io,execute_request,2}},{ancestors,[<0.76.0>]},{message_queue_len,0},{links,[<0.316.0>]},{trap_exit,false},{status,waiting},{heap_size,4185},{stack_size,45},{reductions,18919},{current_stacktrace,[{io,execute_request,2,[{file,"io.erl"},{line,579}]},{io,o_request,3,[{file,"io.erl"},{line,63}]},{'Elixir.IEx.Evaluator',handle_eval,5,[{file,"lib/iex/evaluator.ex"},{line,260}]},{'Elixir.IEx.Evaluator',do_eval,3,[{file,"lib/iex/evaluator.ex"},{line,237}]},{'Elixir.IEx.Evaluator',eval,3,[{file,"lib/iex/evaluator.ex"},{line,215}]},{'Elixir.IEx.Evaluator',loop,1,[{file,"lib/iex/evaluator.ex"},{line,103}]},{'Elixir.IEx.Evaluator',init,4,[{file,"lib/iex/evaluator.ex"},{line,27}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}]
+2019-08-29 17:31:19 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Consumer:init/1
+    pid: <0.241.0>
+    registered_name: []
+    exception exit: {{{shutdown,{server_initiated_close,406,<<"PRECONDITION_FAILED - inequivalent arg 'durable' for queue 'bol_queue' in vhost '/': received 'true' but current is 'false'">>}},{gen_server,call,[<0.255.0>,{call,{'queue.declare',0,<<"bol_queue">>,false,true,false,false,false,[{<<"x-dead-letter-exchange">>,longstr,<<>>},{<<"x-dead-letter-routing-key">>,longstr,<<"bol_queue_error">>}]},none,<0.241.0>},60000]}},[{gen_server,call,3,[{file,"gen_server.erl"},{line,223}]},{'Elixir.AMQP.Queue',declare,3,[{file,"lib/amqp/queue.ex"},{line,35}]},{'Elixir.Consumer',setup_queue,1,[{file,"lib/consumer.ex"},{line,49}]},{'Elixir.Consumer',init,1,[{file,"lib/consumer.ex"},{line,16}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,374}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,342}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}
+    ancestors: [<0.238.0>,<0.71.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.238.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 1581
+  neighbours:
+    neighbour: [{pid,<0.238.0>},{registered_name,[]},{initial_call,{'Elixir.IEx.Evaluator',init,['Argument__1','Argument__2','Argument__3','Argument__4']}},{current_function,{io,execute_request,2}},{ancestors,[<0.71.0>]},{message_queue_len,0},{links,[<0.241.0>]},{trap_exit,false},{status,waiting},{heap_size,987},{stack_size,49},{reductions,2166},{current_stacktrace,[{io,execute_request,2,[{file,"io.erl"},{line,579}]},{io,columns,1,[{file,"io.erl"},{line,121}]},{'Elixir.IEx.Config',columns,0,[{file,"lib/iex/config.ex"},{line,22}]},{'Elixir.IEx.Config',width,0,[{file,"lib/iex/config.ex"},{line,16}]},{'Elixir.Keyword',put_new_lazy,3,[{file,"lib/keyword.ex"},{line,610}]},{'Elixir.IEx.Config',inspect_opts,0,[{file,"lib/iex/config.ex"},{line,113}]},{'Elixir.IEx.Evaluator',io_inspect,1,[{file,"lib/iex/evaluator.ex"},{line,285}]},{'Elixir.IEx.Evaluator',handle_eval,5,[{file,"lib/iex/evaluator.ex"},{line,260}]}]}]
