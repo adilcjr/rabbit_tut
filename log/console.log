@@ -58,3 +58,196 @@
 2019-08-29 19:06:37.716 [info] <0.43.0> Application amqp_client started on node nonode@nohost
 2019-08-29 19:06:37.718 [info] <0.43.0> Application amqp started on node nonode@nohost
 2019-08-29 19:06:37.718 [info] <0.43.0> Application rabbit_tut started on node nonode@nohost
+2019-08-30 11:27:36.468 [info] <0.43.0> Application lager started on node nonode@nohost
+2019-08-30 11:27:36.472 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2019-08-30 11:27:36.474 [info] <0.43.0> Application jsx started on node nonode@nohost
+2019-08-30 11:27:36.477 [info] <0.43.0> Application ranch started on node nonode@nohost
+2019-08-30 11:27:36.477 [info] <0.43.0> Application recon started on node nonode@nohost
+2019-08-30 11:27:36.478 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2019-08-30 11:27:36.482 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2019-08-30 11:27:36.484 [info] <0.43.0> Application amqp started on node nonode@nohost
+2019-08-30 11:27:36.484 [info] <0.43.0> Application rabbit_tut started on node nonode@nohost
+2019-08-30 11:58:39.768 [error] <0.49.0> Loading of /Users/adilcjr/Projects/elixir/rabbit_tut/_build/dev/lib/rabbit_tut/ebin/Elixir.RabbitmqCli.Amqp.beam failed: badfile
+2019-08-30 11:58:39.769 [error] emulator beam/beam_load.c(1433): Error loading module 'Elixir.RabbitmqCli.Amqp':
+  BEAM file exists but it defines a module named Elixir.RabbitmqCli.AMQP
+
+2019-08-30 11:58:39.770 [error] <0.49.0> Loading of /Users/adilcjr/Projects/elixir/rabbit_tut/_build/dev/lib/rabbit_tut/ebin/Elixir.RabbitmqCli.Amqp.beam failed: badfile
+2019-08-30 11:58:39.770 [error] emulator beam/beam_load.c(1433): Error loading module 'Elixir.RabbitmqCli.Amqp':
+  BEAM file exists but it defines a module named Elixir.RabbitmqCli.AMQP
+
+2019-08-30 11:59:08.744 [info] <0.43.0> Application lager started on node nonode@nohost
+2019-08-30 11:59:08.750 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2019-08-30 11:59:08.751 [info] <0.43.0> Application jsx started on node nonode@nohost
+2019-08-30 11:59:08.755 [info] <0.43.0> Application ranch started on node nonode@nohost
+2019-08-30 11:59:08.756 [info] <0.43.0> Application recon started on node nonode@nohost
+2019-08-30 11:59:08.756 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2019-08-30 11:59:08.762 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2019-08-30 11:59:08.765 [info] <0.43.0> Application amqp started on node nonode@nohost
+2019-08-30 11:59:08.765 [info] <0.43.0> Application rabbit_tut started on node nonode@nohost
+2019-08-30 11:59:29.587 [error] <0.49.0> Loading of /Users/adilcjr/Projects/elixir/rabbit_tut/_build/dev/lib/rabbit_tut/ebin/Elixir.RabbitmqCli.Amqp.beam failed: badfile
+2019-08-30 11:59:29.588 [error] emulator beam/beam_load.c(1433): Error loading module 'Elixir.RabbitmqCli.Amqp':
+  BEAM file exists but it defines a module named Elixir.RabbitmqCli.AMQP
+
+2019-08-30 11:59:29.594 [error] emulator beam/beam_load.c(1433): Error loading module 'Elixir.RabbitmqCli.Amqp':
+  BEAM file exists but it defines a module named Elixir.RabbitmqCli.AMQP
+
+2019-08-30 11:59:29.600 [error] <0.49.0> Loading of /Users/adilcjr/Projects/elixir/rabbit_tut/_build/dev/lib/rabbit_tut/ebin/Elixir.RabbitmqCli.Amqp.beam failed: badfile
+2019-08-30 13:50:47.169 [info] <0.43.0> Application lager started on node nonode@nohost
+2019-08-30 13:50:47.175 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2019-08-30 13:50:47.176 [info] <0.43.0> Application jsx started on node nonode@nohost
+2019-08-30 13:50:47.180 [info] <0.43.0> Application ranch started on node nonode@nohost
+2019-08-30 13:50:47.181 [info] <0.43.0> Application recon started on node nonode@nohost
+2019-08-30 13:50:47.181 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2019-08-30 13:50:47.187 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2019-08-30 13:50:47.189 [info] <0.43.0> Application amqp started on node nonode@nohost
+2019-08-30 13:50:47.189 [info] <0.43.0> Application rabbit_tut started on node nonode@nohost
+2019-08-30 14:17:55.914 [info] <0.43.0> Application lager started on node nonode@nohost
+2019-08-30 14:17:55.919 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2019-08-30 14:17:55.920 [info] <0.43.0> Application jsx started on node nonode@nohost
+2019-08-30 14:17:55.925 [info] <0.43.0> Application ranch started on node nonode@nohost
+2019-08-30 14:17:55.925 [info] <0.43.0> Application recon started on node nonode@nohost
+2019-08-30 14:17:55.926 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2019-08-30 14:17:55.931 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2019-08-30 14:17:55.934 [info] <0.43.0> Application amqp started on node nonode@nohost
+2019-08-30 14:17:55.934 [info] <0.43.0> Application rabbit_tut started on node nonode@nohost
+2019-08-30 14:18:28.178 [error] <0.249.0>@Elixir.Channel:open CRASH REPORT Process <0.249.0> with 1 neighbours crashed with reason: call to undefined function 'Elixir.Channel':open(#{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.252.0>})
+2019-08-30 14:22:39.852 [info] <0.43.0> Application lager started on node nonode@nohost
+2019-08-30 14:22:39.857 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2019-08-30 14:22:39.859 [info] <0.43.0> Application jsx started on node nonode@nohost
+2019-08-30 14:22:39.863 [info] <0.43.0> Application ranch started on node nonode@nohost
+2019-08-30 14:22:39.864 [info] <0.43.0> Application recon started on node nonode@nohost
+2019-08-30 14:22:39.864 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2019-08-30 14:22:39.870 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2019-08-30 14:22:39.873 [info] <0.43.0> Application amqp started on node nonode@nohost
+2019-08-30 14:22:39.873 [info] <0.43.0> Application rabbit_tut started on node nonode@nohost
+2019-08-30 14:24:03.388 [info] <0.43.0> Application lager started on node nonode@nohost
+2019-08-30 14:24:03.393 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2019-08-30 14:24:03.395 [info] <0.43.0> Application jsx started on node nonode@nohost
+2019-08-30 14:24:03.399 [info] <0.43.0> Application ranch started on node nonode@nohost
+2019-08-30 14:24:03.400 [info] <0.43.0> Application recon started on node nonode@nohost
+2019-08-30 14:24:03.400 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2019-08-30 14:24:03.407 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2019-08-30 14:24:03.410 [info] <0.43.0> Application amqp started on node nonode@nohost
+2019-08-30 14:24:03.410 [info] <0.43.0> Application rabbit_tut started on node nonode@nohost
+2019-08-30 14:24:32.737 [error] <0.249.0>@Elixir.Channel:open CRASH REPORT Process <0.249.0> with 1 neighbours crashed with reason: call to undefined function 'Elixir.Channel':open(#{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.252.0>})
+2019-08-30 14:26:59.683 [info] <0.43.0> Application lager started on node nonode@nohost
+2019-08-30 14:26:59.688 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2019-08-30 14:26:59.689 [info] <0.43.0> Application jsx started on node nonode@nohost
+2019-08-30 14:26:59.693 [info] <0.43.0> Application ranch started on node nonode@nohost
+2019-08-30 14:26:59.694 [info] <0.43.0> Application recon started on node nonode@nohost
+2019-08-30 14:26:59.694 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2019-08-30 14:26:59.699 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2019-08-30 14:26:59.701 [info] <0.43.0> Application amqp started on node nonode@nohost
+2019-08-30 14:26:59.701 [info] <0.43.0> Application rabbit_tut started on node nonode@nohost
+2019-08-30 14:34:25.144 [info] <0.43.0> Application lager started on node nonode@nohost
+2019-08-30 14:34:25.149 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2019-08-30 14:34:25.150 [info] <0.43.0> Application jsx started on node nonode@nohost
+2019-08-30 14:34:25.154 [info] <0.43.0> Application ranch started on node nonode@nohost
+2019-08-30 14:34:25.155 [info] <0.43.0> Application recon started on node nonode@nohost
+2019-08-30 14:34:25.155 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2019-08-30 14:34:25.161 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2019-08-30 14:34:25.163 [info] <0.43.0> Application amqp started on node nonode@nohost
+2019-08-30 14:34:25.163 [info] <0.43.0> Application rabbit_tut started on node nonode@nohost
+2019-08-30 14:34:47.966 [error] <0.240.0>@Elixir.Channel:open CRASH REPORT Process <0.240.0> with 1 neighbours crashed with reason: call to undefined function 'Elixir.Channel':open(#{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.243.0>})
+2019-08-30 14:35:36.922 [info] <0.43.0> Application lager started on node nonode@nohost
+2019-08-30 14:35:36.926 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2019-08-30 14:35:36.927 [info] <0.43.0> Application jsx started on node nonode@nohost
+2019-08-30 14:35:36.930 [info] <0.43.0> Application ranch started on node nonode@nohost
+2019-08-30 14:35:36.931 [info] <0.43.0> Application recon started on node nonode@nohost
+2019-08-30 14:35:36.931 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2019-08-30 14:35:36.936 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2019-08-30 14:35:36.938 [info] <0.43.0> Application amqp started on node nonode@nohost
+2019-08-30 14:35:36.938 [info] <0.43.0> Application rabbit_tut started on node nonode@nohost
+2019-08-30 14:35:46.846 [error] <0.249.0>@Elixir.Connection:open CRASH REPORT Process <0.249.0> with 1 neighbours crashed with reason: call to undefined function 'Elixir.Connection':open(<<"amqp://guest:guest@localhost">>)
+2019-08-30 14:36:31.340 [info] <0.43.0> Application lager started on node nonode@nohost
+2019-08-30 14:36:31.345 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2019-08-30 14:36:31.347 [info] <0.43.0> Application jsx started on node nonode@nohost
+2019-08-30 14:36:31.351 [info] <0.43.0> Application ranch started on node nonode@nohost
+2019-08-30 14:36:31.352 [info] <0.43.0> Application recon started on node nonode@nohost
+2019-08-30 14:36:31.352 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2019-08-30 14:36:31.358 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2019-08-30 14:36:31.360 [info] <0.43.0> Application amqp started on node nonode@nohost
+2019-08-30 14:36:31.360 [info] <0.43.0> Application rabbit_tut started on node nonode@nohost
+2019-08-30 14:36:39.500 [error] <0.249.0>@Elixir.Channel:open CRASH REPORT Process <0.249.0> with 1 neighbours crashed with reason: call to undefined function 'Elixir.Channel':open(#{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.252.0>})
+2019-08-30 14:37:47.746 [info] <0.43.0> Application lager started on node nonode@nohost
+2019-08-30 14:37:47.751 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2019-08-30 14:37:47.753 [info] <0.43.0> Application jsx started on node nonode@nohost
+2019-08-30 14:37:47.756 [info] <0.43.0> Application ranch started on node nonode@nohost
+2019-08-30 14:37:47.757 [info] <0.43.0> Application recon started on node nonode@nohost
+2019-08-30 14:37:47.757 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2019-08-30 14:37:47.762 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2019-08-30 14:37:47.764 [info] <0.43.0> Application amqp started on node nonode@nohost
+2019-08-30 14:37:47.764 [info] <0.43.0> Application rabbit_tut started on node nonode@nohost
+2019-08-30 14:38:11.897 [error] <0.249.0> CRASH REPORT Process <0.249.0> with 1 neighbours exited with reason: {{shutdown,{server_initiated_close,406,<<"PRECONDITION_FAILED - inequivalent arg 'type' for exchange 'bol_exchange' in vhost '/': received 'direct' but current is 'fanout'">>}},{gen_server,call,[<0.263.0>,{call,{'exchange.declare',0,<<"bol_exchange">>,<<"direct">>,false,true,false,false,false,[]},none,<0.249.0>},60000]}} in gen_server:call/3 line 223
+2019-08-30 14:45:06.607 [info] <0.43.0> Application lager started on node nonode@nohost
+2019-08-30 14:45:06.612 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2019-08-30 14:45:06.614 [info] <0.43.0> Application jsx started on node nonode@nohost
+2019-08-30 14:45:06.618 [info] <0.43.0> Application ranch started on node nonode@nohost
+2019-08-30 14:45:06.619 [info] <0.43.0> Application recon started on node nonode@nohost
+2019-08-30 14:45:06.619 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2019-08-30 14:45:06.624 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2019-08-30 14:45:06.627 [info] <0.43.0> Application amqp started on node nonode@nohost
+2019-08-30 14:45:06.627 [info] <0.43.0> Application rabbit_tut started on node nonode@nohost
+2019-08-30 14:45:31.422 [error] <0.240.0> CRASH REPORT Process <0.240.0> with 1 neighbours exited with reason: {{shutdown,{server_initiated_close,406,<<"PRECONDITION_FAILED - inequivalent arg 'type' for exchange 'bol_exchange' in vhost '/': received 'direct' but current is 'fanout'">>}},{gen_server,call,[<0.254.0>,{call,{'exchange.declare',0,<<"bol_exchange">>,<<"direct">>,false,true,false,false,false,[]},none,<0.240.0>},60000]}} in gen_server:call/3 line 223
+2019-08-30 14:46:54.451 [info] <0.43.0> Application lager started on node nonode@nohost
+2019-08-30 14:46:54.456 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2019-08-30 14:46:54.457 [info] <0.43.0> Application jsx started on node nonode@nohost
+2019-08-30 14:46:54.461 [info] <0.43.0> Application ranch started on node nonode@nohost
+2019-08-30 14:46:54.462 [info] <0.43.0> Application recon started on node nonode@nohost
+2019-08-30 14:46:54.462 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2019-08-30 14:46:54.468 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2019-08-30 14:46:54.471 [info] <0.43.0> Application amqp started on node nonode@nohost
+2019-08-30 14:46:54.471 [info] <0.43.0> Application rabbit_tut started on node nonode@nohost
+2019-08-30 14:47:05.039 [error] <0.249.0> CRASH REPORT Process <0.249.0> with 1 neighbours exited with reason: {{shutdown,{server_initiated_close,406,<<"PRECONDITION_FAILED - inequivalent arg 'durable' for queue 'bol_queue' in vhost '/': received 'false' but current is 'true'">>}},{gen_server,call,[<0.263.0>,{call,{'queue.declare',0,<<"bol_queue">>,false,false,true,false,false,[]},none,<0.249.0>},60000]}} in gen_server:call/3 line 223
+2019-08-30 14:49:34.439 [info] <0.43.0> Application lager started on node nonode@nohost
+2019-08-30 14:49:34.444 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2019-08-30 14:49:34.446 [info] <0.43.0> Application jsx started on node nonode@nohost
+2019-08-30 14:49:34.450 [info] <0.43.0> Application ranch started on node nonode@nohost
+2019-08-30 14:49:34.451 [info] <0.43.0> Application recon started on node nonode@nohost
+2019-08-30 14:49:34.451 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2019-08-30 14:49:34.457 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2019-08-30 14:49:34.459 [info] <0.43.0> Application amqp started on node nonode@nohost
+2019-08-30 14:49:34.459 [info] <0.43.0> Application rabbit_tut started on node nonode@nohost
+2019-08-30 14:49:45.652 [error] <0.240.0> CRASH REPORT Process <0.240.0> with 1 neighbours exited with reason: {{shutdown,{server_initiated_close,406,<<"PRECONDITION_FAILED - inequivalent arg 'durable' for queue 'bol_queue' in vhost '/': received 'false' but current is 'true'">>}},{gen_server,call,[<0.254.0>,{call,{'queue.declare',0,<<"bol_queue">>,false,false,true,false,false,[]},none,<0.240.0>},60000]}} in gen_server:call/3 line 223
+2019-08-30 14:52:32.120 [info] <0.43.0> Application lager started on node nonode@nohost
+2019-08-30 14:52:32.125 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2019-08-30 14:52:32.127 [info] <0.43.0> Application jsx started on node nonode@nohost
+2019-08-30 14:52:32.131 [info] <0.43.0> Application ranch started on node nonode@nohost
+2019-08-30 14:52:32.132 [info] <0.43.0> Application recon started on node nonode@nohost
+2019-08-30 14:52:32.132 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2019-08-30 14:52:32.139 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2019-08-30 14:52:32.141 [info] <0.43.0> Application amqp started on node nonode@nohost
+2019-08-30 14:52:32.142 [info] <0.43.0> Application rabbit_tut started on node nonode@nohost
+2019-08-30 14:52:38.467 [error] <0.240.0> CRASH REPORT Process <0.240.0> with 1 neighbours exited with reason: {{shutdown,{server_initiated_close,406,<<"PRECONDITION_FAILED - inequivalent arg 'type' for exchange 'bol_ex' in vhost '/': received 'fanout' but current is 'direct'">>}},{gen_server,call,[<0.254.0>,{call,{'exchange.declare',0,<<"bol_ex">>,<<"fanout">>,false,true,false,false,false,[]},none,<0.240.0>},60000]}} in gen_server:call/3 line 223
+2019-08-30 14:54:30.307 [info] <0.43.0> Application lager started on node nonode@nohost
+2019-08-30 14:54:30.312 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2019-08-30 14:54:30.314 [info] <0.43.0> Application jsx started on node nonode@nohost
+2019-08-30 14:54:30.318 [info] <0.43.0> Application ranch started on node nonode@nohost
+2019-08-30 14:54:30.319 [info] <0.43.0> Application recon started on node nonode@nohost
+2019-08-30 14:54:30.319 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2019-08-30 14:54:30.325 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2019-08-30 14:54:30.328 [info] <0.43.0> Application amqp started on node nonode@nohost
+2019-08-30 14:54:30.328 [info] <0.43.0> Application rabbit_tut started on node nonode@nohost
+2019-08-30 14:54:56.701 [error] <0.240.0> CRASH REPORT Process <0.240.0> with 1 neighbours exited with reason: {{shutdown,{server_initiated_close,406,<<"PRECONDITION_FAILED - inequivalent arg 'type' for exchange 'bol_ex' in vhost '/': received 'fanout' but current is 'direct'">>}},{gen_server,call,[<0.254.0>,{call,{'exchange.declare',0,<<"bol_ex">>,<<"fanout">>,false,true,false,false,false,[]},none,<0.240.0>},60000]}} in gen_server:call/3 line 223
+2019-08-30 14:55:42.195 [info] <0.43.0> Application lager started on node nonode@nohost
+2019-08-30 14:55:42.199 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2019-08-30 14:55:42.201 [info] <0.43.0> Application jsx started on node nonode@nohost
+2019-08-30 14:55:42.205 [info] <0.43.0> Application ranch started on node nonode@nohost
+2019-08-30 14:55:42.206 [info] <0.43.0> Application recon started on node nonode@nohost
+2019-08-30 14:55:42.206 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2019-08-30 14:55:42.212 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2019-08-30 14:55:42.214 [info] <0.43.0> Application amqp started on node nonode@nohost
+2019-08-30 14:55:42.214 [info] <0.43.0> Application rabbit_tut started on node nonode@nohost
+2019-08-30 14:55:49.317 [error] <0.240.0> CRASH REPORT Process <0.240.0> with 1 neighbours exited with reason: {{shutdown,{server_initiated_close,406,<<"PRECONDITION_FAILED - inequivalent arg 'type' for exchange 'bol_ex' in vhost '/': received 'fanout' but current is 'direct'">>}},{gen_server,call,[<0.254.0>,{call,{'exchange.declare',0,<<"bol_ex">>,<<"fanout">>,false,true,false,false,false,[]},none,<0.240.0>},60000]}} in gen_server:call/3 line 223
+2019-08-30 14:56:38.895 [info] <0.43.0> Application lager started on node nonode@nohost
+2019-08-30 14:56:38.900 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2019-08-30 14:56:38.901 [info] <0.43.0> Application jsx started on node nonode@nohost
+2019-08-30 14:56:38.905 [info] <0.43.0> Application ranch started on node nonode@nohost
+2019-08-30 14:56:38.906 [info] <0.43.0> Application recon started on node nonode@nohost
+2019-08-30 14:56:38.906 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2019-08-30 14:56:38.912 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2019-08-30 14:56:38.914 [info] <0.43.0> Application amqp started on node nonode@nohost
+2019-08-30 14:56:38.914 [info] <0.43.0> Application rabbit_tut started on node nonode@nohost
+2019-08-30 14:57:04.513 [error] <0.264.0>@rabbit_framing_amqp_0_9_1:shortstr_size:185 CRASH REPORT Process <0.264.0> with 0 neighbours crashed with reason: bad argument in call to erlang:size(nil) in rabbit_framing_amqp_0_9_1:shortstr_size/1 line 185
+2019-08-30 14:57:04.514 [error] <0.261.0>@rabbit_framing_amqp_0_9_1:shortstr_size:185 Supervisor {<0.261.0>,amqp_channel_sup} had child writer started with rabbit_writer:start_link(#Port<0.12>, 1, 131072, rabbit_framing_amqp_0_9_1, <0.263.0>, {<<"client 127.0.0.1:64192 -> 127.0.0.1:5672">>,1}) at <0.264.0> exit with reason bad argument in call to erlang:size(nil) in rabbit_framing_amqp_0_9_1:shortstr_size/1 line 185 in context child_terminated
+2019-08-30 14:57:04.514 [error] <0.261.0> Supervisor {<0.261.0>,amqp_channel_sup} had child writer started with rabbit_writer:start_link(#Port<0.12>, 1, 131072, rabbit_framing_amqp_0_9_1, <0.263.0>, {<<"client 127.0.0.1:64192 -> 127.0.0.1:5672">>,1}) at <0.264.0> exit with reason reached_max_restart_intensity in context shutdown

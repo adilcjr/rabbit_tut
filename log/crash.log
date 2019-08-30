@@ -52,3 +52,272 @@
     reductions: 1581
   neighbours:
     neighbour: [{pid,<0.238.0>},{registered_name,[]},{initial_call,{'Elixir.IEx.Evaluator',init,['Argument__1','Argument__2','Argument__3','Argument__4']}},{current_function,{io,execute_request,2}},{ancestors,[<0.71.0>]},{message_queue_len,0},{links,[<0.241.0>]},{trap_exit,false},{status,waiting},{heap_size,987},{stack_size,49},{reductions,2166},{current_stacktrace,[{io,execute_request,2,[{file,"io.erl"},{line,579}]},{io,columns,1,[{file,"io.erl"},{line,121}]},{'Elixir.IEx.Config',columns,0,[{file,"lib/iex/config.ex"},{line,22}]},{'Elixir.IEx.Config',width,0,[{file,"lib/iex/config.ex"},{line,16}]},{'Elixir.Keyword',put_new_lazy,3,[{file,"lib/keyword.ex"},{line,610}]},{'Elixir.IEx.Config',inspect_opts,0,[{file,"lib/iex/config.ex"},{line,113}]},{'Elixir.IEx.Evaluator',io_inspect,1,[{file,"lib/iex/evaluator.ex"},{line,285}]},{'Elixir.IEx.Evaluator',handle_eval,5,[{file,"lib/iex/evaluator.ex"},{line,260}]}]}]
+2019-08-30 11:58:39 =ERROR REPORT====
+Loading of /Users/adilcjr/Projects/elixir/rabbit_tut/_build/dev/lib/rabbit_tut/ebin/Elixir.RabbitmqCli.Amqp.beam failed: badfile
+2019-08-30 11:58:39 =ERROR REPORT====
+beam/beam_load.c(1433): Error loading module 'Elixir.RabbitmqCli.Amqp':
+  BEAM file exists but it defines a module named Elixir.RabbitmqCli.AMQP
+
+2019-08-30 11:58:39 =ERROR REPORT====
+Loading of /Users/adilcjr/Projects/elixir/rabbit_tut/_build/dev/lib/rabbit_tut/ebin/Elixir.RabbitmqCli.Amqp.beam failed: badfile
+2019-08-30 11:58:39 =ERROR REPORT====
+beam/beam_load.c(1433): Error loading module 'Elixir.RabbitmqCli.Amqp':
+  BEAM file exists but it defines a module named Elixir.RabbitmqCli.AMQP
+
+2019-08-30 11:59:29 =ERROR REPORT====
+Loading of /Users/adilcjr/Projects/elixir/rabbit_tut/_build/dev/lib/rabbit_tut/ebin/Elixir.RabbitmqCli.Amqp.beam failed: badfile
+2019-08-30 11:59:29 =ERROR REPORT====
+beam/beam_load.c(1433): Error loading module 'Elixir.RabbitmqCli.Amqp':
+  BEAM file exists but it defines a module named Elixir.RabbitmqCli.AMQP
+
+2019-08-30 11:59:29 =ERROR REPORT====
+beam/beam_load.c(1433): Error loading module 'Elixir.RabbitmqCli.Amqp':
+  BEAM file exists but it defines a module named Elixir.RabbitmqCli.AMQP
+
+2019-08-30 11:59:29 =ERROR REPORT====
+Loading of /Users/adilcjr/Projects/elixir/rabbit_tut/_build/dev/lib/rabbit_tut/ebin/Elixir.RabbitmqCli.Amqp.beam failed: badfile
+2019-08-30 14:18:28 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.RabbitmqCli.AMQP:init/1
+    pid: <0.249.0>
+    registered_name: []
+    exception error: {undef,[{'Elixir.Channel',open,[#{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.252.0>}],[]},{'Elixir.RabbitmqCli.AMQP',init,1,[{file,"lib/ampq.ex"},{line,17}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,374}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,342}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}
+    ancestors: [<0.247.0>,<0.76.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.247.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 1432
+  neighbours:
+    neighbour: [{pid,<0.247.0>},{registered_name,[]},{initial_call,{'Elixir.IEx.Evaluator',init,['Argument__1','Argument__2','Argument__3','Argument__4']}},{current_function,{io,execute_request,2}},{ancestors,[<0.76.0>]},{message_queue_len,0},{links,[<0.249.0>]},{trap_exit,false},{status,waiting},{heap_size,987},{stack_size,49},{reductions,2243},{current_stacktrace,[{io,execute_request,2,[{file,"io.erl"},{line,579}]},{io,columns,1,[{file,"io.erl"},{line,121}]},{'Elixir.IEx.Config',columns,0,[{file,"lib/iex/config.ex"},{line,22}]},{'Elixir.IEx.Config',width,0,[{file,"lib/iex/config.ex"},{line,16}]},{'Elixir.Keyword',put_new_lazy,3,[{file,"lib/keyword.ex"},{line,610}]},{'Elixir.IEx.Config',inspect_opts,0,[{file,"lib/iex/config.ex"},{line,113}]},{'Elixir.IEx.Evaluator',io_inspect,1,[{file,"lib/iex/evaluator.ex"},{line,285}]},{'Elixir.IEx.Evaluator',handle_eval,5,[{file,"lib/iex/evaluator.ex"},{line,260}]}]}]
+2019-08-30 14:24:32 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.RabbitmqCli.AMQP:init/1
+    pid: <0.249.0>
+    registered_name: []
+    exception error: {undef,[{'Elixir.Channel',open,[#{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.252.0>}],[]},{'Elixir.RabbitmqCli.AMQP',init,1,[{file,"lib/ampq.ex"},{line,17}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,374}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,342}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}
+    ancestors: [<0.247.0>,<0.72.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.247.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 1432
+  neighbours:
+    neighbour: [{pid,<0.247.0>},{registered_name,[]},{initial_call,{'Elixir.IEx.Evaluator',init,['Argument__1','Argument__2','Argument__3','Argument__4']}},{current_function,{io,execute_request,2}},{ancestors,[<0.72.0>]},{message_queue_len,0},{links,[<0.249.0>]},{trap_exit,false},{status,waiting},{heap_size,1598},{stack_size,49},{reductions,2202},{current_stacktrace,[{io,execute_request,2,[{file,"io.erl"},{line,579}]},{io,columns,1,[{file,"io.erl"},{line,121}]},{'Elixir.IEx.Config',columns,0,[{file,"lib/iex/config.ex"},{line,22}]},{'Elixir.IEx.Config',width,0,[{file,"lib/iex/config.ex"},{line,16}]},{'Elixir.Keyword',put_new_lazy,3,[{file,"lib/keyword.ex"},{line,610}]},{'Elixir.IEx.Config',inspect_opts,0,[{file,"lib/iex/config.ex"},{line,113}]},{'Elixir.IEx.Evaluator',io_inspect,1,[{file,"lib/iex/evaluator.ex"},{line,285}]},{'Elixir.IEx.Evaluator',handle_eval,5,[{file,"lib/iex/evaluator.ex"},{line,260}]}]}]
+2019-08-30 14:34:47 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.RabbitmqCli.AMQP:init/1
+    pid: <0.240.0>
+    registered_name: []
+    exception error: {undef,[{'Elixir.Channel',open,[#{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.243.0>}],[]},{'Elixir.RabbitmqCli.AMQP',init,1,[{file,"lib/ampq.ex"},{line,18}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,374}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,342}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}
+    ancestors: [<0.238.0>,<0.77.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.238.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 1432
+  neighbours:
+    neighbour: [{pid,<0.238.0>},{registered_name,[]},{initial_call,{'Elixir.IEx.Evaluator',init,['Argument__1','Argument__2','Argument__3','Argument__4']}},{current_function,{io,execute_request,2}},{ancestors,[<0.77.0>]},{message_queue_len,0},{links,[<0.240.0>]},{trap_exit,false},{status,waiting},{heap_size,2586},{stack_size,49},{reductions,2264},{current_stacktrace,[{io,execute_request,2,[{file,"io.erl"},{line,579}]},{io,columns,1,[{file,"io.erl"},{line,121}]},{'Elixir.IEx.Config',columns,0,[{file,"lib/iex/config.ex"},{line,22}]},{'Elixir.IEx.Config',width,0,[{file,"lib/iex/config.ex"},{line,16}]},{'Elixir.Keyword',put_new_lazy,3,[{file,"lib/keyword.ex"},{line,610}]},{'Elixir.IEx.Config',inspect_opts,0,[{file,"lib/iex/config.ex"},{line,113}]},{'Elixir.IEx.Evaluator',io_inspect,1,[{file,"lib/iex/evaluator.ex"},{line,285}]},{'Elixir.IEx.Evaluator',handle_eval,5,[{file,"lib/iex/evaluator.ex"},{line,260}]}]}]
+2019-08-30 14:35:46 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.RabbitmqCli.AMQP:init/1
+    pid: <0.249.0>
+    registered_name: []
+    exception error: {undef,[{'Elixir.Connection',open,[<<"amqp://guest:guest@localhost">>],[]},{'Elixir.RabbitmqCli.AMQP',init,1,[{file,"lib/ampq.ex"},{line,16}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,374}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,342}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}
+    ancestors: [<0.247.0>,<0.76.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.247.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 222
+  neighbours:
+    neighbour: [{pid,<0.247.0>},{registered_name,[]},{initial_call,{'Elixir.IEx.Evaluator',init,['Argument__1','Argument__2','Argument__3','Argument__4']}},{current_function,{io,execute_request,2}},{ancestors,[<0.76.0>]},{message_queue_len,0},{links,[<0.249.0>]},{trap_exit,false},{status,waiting},{heap_size,1598},{stack_size,47},{reductions,2358},{current_stacktrace,[{code_server,call,1,[{file,"code_server.erl"},{line,139}]},{error_handler,undefined_function,3,[{file,"error_handler.erl"},{line,41}]},{'Elixir.Kernel',inspect,2,[{file,"lib/kernel.ex"},{line,2066}]},{'Elixir.IEx.Evaluator',io_inspect,1,[{file,"lib/iex/evaluator.ex"},{line,285}]},{'Elixir.IEx.Evaluator',handle_eval,5,[{file,"lib/iex/evaluator.ex"},{line,260}]},{'Elixir.IEx.Evaluator',do_eval,3,[{file,"lib/iex/evaluator.ex"},{line,237}]},{'Elixir.IEx.Evaluator',eval,3,[{file,"lib/iex/evaluator.ex"},{line,215}]},{'Elixir.IEx.Evaluator',loop,1,[{file,"lib/iex/evaluator.ex"},{line,103}]}]}]
+2019-08-30 14:36:39 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.RabbitmqCli.AMQP:init/1
+    pid: <0.249.0>
+    registered_name: []
+    exception error: {undef,[{'Elixir.Channel',open,[#{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.252.0>}],[]},{'Elixir.RabbitmqCli.AMQP',init,1,[{file,"lib/ampq.ex"},{line,17}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,374}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,342}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}
+    ancestors: [<0.247.0>,<0.76.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.247.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 1432
+  neighbours:
+    neighbour: [{pid,<0.247.0>},{registered_name,[]},{initial_call,{'Elixir.IEx.Evaluator',init,['Argument__1','Argument__2','Argument__3','Argument__4']}},{current_function,{io,execute_request,2}},{ancestors,[<0.76.0>]},{message_queue_len,0},{links,[<0.249.0>]},{trap_exit,false},{status,waiting},{heap_size,1598},{stack_size,49},{reductions,2262},{current_stacktrace,[{io,execute_request,2,[{file,"io.erl"},{line,579}]},{io,columns,1,[{file,"io.erl"},{line,121}]},{'Elixir.IEx.Config',columns,0,[{file,"lib/iex/config.ex"},{line,22}]},{'Elixir.IEx.Config',width,0,[{file,"lib/iex/config.ex"},{line,16}]},{'Elixir.Keyword',put_new_lazy,3,[{file,"lib/keyword.ex"},{line,610}]},{'Elixir.IEx.Config',inspect_opts,0,[{file,"lib/iex/config.ex"},{line,113}]},{'Elixir.IEx.Evaluator',io_inspect,1,[{file,"lib/iex/evaluator.ex"},{line,285}]},{'Elixir.IEx.Evaluator',handle_eval,5,[{file,"lib/iex/evaluator.ex"},{line,260}]}]}]
+2019-08-30 14:38:11 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.RabbitmqCli.AMQP:init/1
+    pid: <0.249.0>
+    registered_name: []
+    exception exit: {{{shutdown,{server_initiated_close,406,<<"PRECONDITION_FAILED - inequivalent arg 'type' for exchange 'bol_exchange' in vhost '/': received 'direct' but current is 'fanout'">>}},{gen_server,call,[<0.263.0>,{call,{'exchange.declare',0,<<"bol_exchange">>,<<"direct">>,false,true,false,false,false,[]},none,<0.249.0>},60000]}},[{gen_server,call,3,[{file,"gen_server.erl"},{line,223}]},{'Elixir.AMQP.Exchange',declare,4,[{file,"lib/amqp/exchange.ex"},{line,42}]},{'Elixir.RabbitmqCli.AMQP',init,1,[{file,"lib/ampq.ex"},{line,19}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,374}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,342}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}
+    ancestors: [<0.247.0>,<0.76.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.247.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 1513
+  neighbours:
+    neighbour: [{pid,<0.247.0>},{registered_name,[]},{initial_call,{'Elixir.IEx.Evaluator',init,['Argument__1','Argument__2','Argument__3','Argument__4']}},{current_function,{io,execute_request,2}},{ancestors,[<0.76.0>]},{message_queue_len,0},{links,[<0.249.0>]},{trap_exit,false},{status,waiting},{heap_size,987},{stack_size,49},{reductions,2242},{current_stacktrace,[{io,execute_request,2,[{file,"io.erl"},{line,579}]},{io,columns,1,[{file,"io.erl"},{line,121}]},{'Elixir.IEx.Config',columns,0,[{file,"lib/iex/config.ex"},{line,22}]},{'Elixir.IEx.Config',width,0,[{file,"lib/iex/config.ex"},{line,16}]},{'Elixir.Keyword',put_new_lazy,3,[{file,"lib/keyword.ex"},{line,610}]},{'Elixir.IEx.Config',inspect_opts,0,[{file,"lib/iex/config.ex"},{line,113}]},{'Elixir.IEx.Evaluator',io_inspect,1,[{file,"lib/iex/evaluator.ex"},{line,285}]},{'Elixir.IEx.Evaluator',handle_eval,5,[{file,"lib/iex/evaluator.ex"},{line,260}]}]}]
+2019-08-30 14:45:31 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.RabbitmqCli.AMQP:init/1
+    pid: <0.240.0>
+    registered_name: []
+    exception exit: {{{shutdown,{server_initiated_close,406,<<"PRECONDITION_FAILED - inequivalent arg 'type' for exchange 'bol_exchange' in vhost '/': received 'direct' but current is 'fanout'">>}},{gen_server,call,[<0.254.0>,{call,{'exchange.declare',0,<<"bol_exchange">>,<<"direct">>,false,true,false,false,false,[]},none,<0.240.0>},60000]}},[{gen_server,call,3,[{file,"gen_server.erl"},{line,223}]},{'Elixir.AMQP.Exchange',declare,4,[{file,"lib/amqp/exchange.ex"},{line,42}]},{'Elixir.RabbitmqCli.AMQP',init,1,[{file,"lib/ampq.ex"},{line,19}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,374}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,342}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}
+    ancestors: [<0.238.0>,<0.72.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.238.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 1513
+  neighbours:
+    neighbour: [{pid,<0.238.0>},{registered_name,[]},{initial_call,{'Elixir.IEx.Evaluator',init,['Argument__1','Argument__2','Argument__3','Argument__4']}},{current_function,{'Elixir.Inspect.Algebra','fits?',4}},{ancestors,[<0.72.0>]},{message_queue_len,0},{links,[<0.240.0>]},{trap_exit,false},{status,waiting},{heap_size,4185},{stack_size,45},{reductions,10929},{current_stacktrace,[{io,execute_request,2,[{file,"io.erl"},{line,579}]},{io,o_request,3,[{file,"io.erl"},{line,63}]},{'Elixir.IEx.Evaluator',handle_eval,5,[{file,"lib/iex/evaluator.ex"},{line,260}]},{'Elixir.IEx.Evaluator',do_eval,3,[{file,"lib/iex/evaluator.ex"},{line,237}]},{'Elixir.IEx.Evaluator',eval,3,[{file,"lib/iex/evaluator.ex"},{line,215}]},{'Elixir.IEx.Evaluator',loop,1,[{file,"lib/iex/evaluator.ex"},{line,103}]},{'Elixir.IEx.Evaluator',init,4,[{file,"lib/iex/evaluator.ex"},{line,27}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}]
+2019-08-30 14:47:05 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.RabbitmqCli.AMQP:init/1
+    pid: <0.249.0>
+    registered_name: []
+    exception exit: {{{shutdown,{server_initiated_close,406,<<"PRECONDITION_FAILED - inequivalent arg 'durable' for queue 'bol_queue' in vhost '/': received 'false' but current is 'true'">>}},{gen_server,call,[<0.263.0>,{call,{'queue.declare',0,<<"bol_queue">>,false,false,true,false,false,[]},none,<0.249.0>},60000]}},[{gen_server,call,3,[{file,"gen_server.erl"},{line,223}]},{'Elixir.AMQP.Queue',declare,3,[{file,"lib/amqp/queue.ex"},{line,35}]},{'Elixir.RabbitmqCli.AMQP',init,1,[{file,"lib/ampq.ex"},{line,20}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,374}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,342}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}
+    ancestors: [<0.247.0>,<0.72.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.247.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 1584
+  neighbours:
+    neighbour: [{pid,<0.247.0>},{registered_name,[]},{initial_call,{'Elixir.IEx.Evaluator',init,['Argument__1','Argument__2','Argument__3','Argument__4']}},{current_function,{io,execute_request,2}},{ancestors,[<0.72.0>]},{message_queue_len,0},{links,[<0.249.0>]},{trap_exit,false},{status,waiting},{heap_size,987},{stack_size,49},{reductions,2202},{current_stacktrace,[{io,execute_request,2,[{file,"io.erl"},{line,579}]},{io,columns,1,[{file,"io.erl"},{line,121}]},{'Elixir.IEx.Config',columns,0,[{file,"lib/iex/config.ex"},{line,22}]},{'Elixir.IEx.Config',width,0,[{file,"lib/iex/config.ex"},{line,16}]},{'Elixir.Keyword',put_new_lazy,3,[{file,"lib/keyword.ex"},{line,610}]},{'Elixir.IEx.Config',inspect_opts,0,[{file,"lib/iex/config.ex"},{line,113}]},{'Elixir.IEx.Evaluator',io_inspect,1,[{file,"lib/iex/evaluator.ex"},{line,285}]},{'Elixir.IEx.Evaluator',handle_eval,5,[{file,"lib/iex/evaluator.ex"},{line,260}]}]}]
+2019-08-30 14:49:45 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.RabbitmqCli.AMQP:init/1
+    pid: <0.240.0>
+    registered_name: []
+    exception exit: {{{shutdown,{server_initiated_close,406,<<"PRECONDITION_FAILED - inequivalent arg 'durable' for queue 'bol_queue' in vhost '/': received 'false' but current is 'true'">>}},{gen_server,call,[<0.254.0>,{call,{'queue.declare',0,<<"bol_queue">>,false,false,true,false,false,[]},none,<0.240.0>},60000]}},[{gen_server,call,3,[{file,"gen_server.erl"},{line,223}]},{'Elixir.AMQP.Queue',declare,3,[{file,"lib/amqp/queue.ex"},{line,35}]},{'Elixir.RabbitmqCli.AMQP',init,1,[{file,"lib/ampq.ex"},{line,20}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,374}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,342}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}
+    ancestors: [<0.238.0>,<0.72.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.238.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 1584
+  neighbours:
+    neighbour: [{pid,<0.238.0>},{registered_name,[]},{initial_call,{'Elixir.IEx.Evaluator',init,['Argument__1','Argument__2','Argument__3','Argument__4']}},{current_function,{io,execute_request,2}},{ancestors,[<0.72.0>]},{message_queue_len,0},{links,[<0.240.0>]},{trap_exit,false},{status,waiting},{heap_size,1598},{stack_size,49},{reductions,2273},{current_stacktrace,[{io,execute_request,2,[{file,"io.erl"},{line,579}]},{io,columns,1,[{file,"io.erl"},{line,121}]},{'Elixir.IEx.Config',columns,0,[{file,"lib/iex/config.ex"},{line,22}]},{'Elixir.IEx.Config',width,0,[{file,"lib/iex/config.ex"},{line,16}]},{'Elixir.Keyword',put_new_lazy,3,[{file,"lib/keyword.ex"},{line,610}]},{'Elixir.IEx.Config',inspect_opts,0,[{file,"lib/iex/config.ex"},{line,113}]},{'Elixir.IEx.Evaluator',io_inspect,1,[{file,"lib/iex/evaluator.ex"},{line,285}]},{'Elixir.IEx.Evaluator',handle_eval,5,[{file,"lib/iex/evaluator.ex"},{line,260}]}]}]
+2019-08-30 14:52:38 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.RabbitmqCli.AMQP:init/1
+    pid: <0.240.0>
+    registered_name: []
+    exception exit: {{{shutdown,{server_initiated_close,406,<<"PRECONDITION_FAILED - inequivalent arg 'type' for exchange 'bol_ex' in vhost '/': received 'fanout' but current is 'direct'">>}},{gen_server,call,[<0.254.0>,{call,{'exchange.declare',0,<<"bol_ex">>,<<"fanout">>,false,true,false,false,false,[]},none,<0.240.0>},60000]}},[{gen_server,call,3,[{file,"gen_server.erl"},{line,223}]},{'Elixir.AMQP.Exchange',declare,4,[{file,"lib/amqp/exchange.ex"},{line,42}]},{'Elixir.RabbitmqCli.AMQP',init,1,[{file,"lib/ampq.ex"},{line,19}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,374}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,342}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}
+    ancestors: [<0.238.0>,<0.77.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.238.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 1513
+  neighbours:
+    neighbour: [{pid,<0.238.0>},{registered_name,[]},{initial_call,{'Elixir.IEx.Evaluator',init,['Argument__1','Argument__2','Argument__3','Argument__4']}},{current_function,{io,execute_request,2}},{ancestors,[<0.77.0>]},{message_queue_len,0},{links,[<0.240.0>]},{trap_exit,false},{status,waiting},{heap_size,4185},{stack_size,45},{reductions,10983},{current_stacktrace,[{io,execute_request,2,[{file,"io.erl"},{line,579}]},{io,o_request,3,[{file,"io.erl"},{line,63}]},{'Elixir.IEx.Evaluator',handle_eval,5,[{file,"lib/iex/evaluator.ex"},{line,260}]},{'Elixir.IEx.Evaluator',do_eval,3,[{file,"lib/iex/evaluator.ex"},{line,237}]},{'Elixir.IEx.Evaluator',eval,3,[{file,"lib/iex/evaluator.ex"},{line,215}]},{'Elixir.IEx.Evaluator',loop,1,[{file,"lib/iex/evaluator.ex"},{line,103}]},{'Elixir.IEx.Evaluator',init,4,[{file,"lib/iex/evaluator.ex"},{line,27}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}]
+2019-08-30 14:54:56 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.RabbitmqCli.AMQP:init/1
+    pid: <0.240.0>
+    registered_name: []
+    exception exit: {{{shutdown,{server_initiated_close,406,<<"PRECONDITION_FAILED - inequivalent arg 'type' for exchange 'bol_ex' in vhost '/': received 'fanout' but current is 'direct'">>}},{gen_server,call,[<0.254.0>,{call,{'exchange.declare',0,<<"bol_ex">>,<<"fanout">>,false,true,false,false,false,[]},none,<0.240.0>},60000]}},[{gen_server,call,3,[{file,"gen_server.erl"},{line,223}]},{'Elixir.AMQP.Exchange',declare,4,[{file,"lib/amqp/exchange.ex"},{line,42}]},{'Elixir.RabbitmqCli.AMQP',init,1,[{file,"lib/ampq.ex"},{line,19}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,374}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,342}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}
+    ancestors: [<0.238.0>,<0.76.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.238.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 1513
+  neighbours:
+    neighbour: [{pid,<0.238.0>},{registered_name,[]},{initial_call,{'Elixir.IEx.Evaluator',init,['Argument__1','Argument__2','Argument__3','Argument__4']}},{current_function,{io,execute_request,2}},{ancestors,[<0.76.0>]},{message_queue_len,0},{links,[<0.240.0>]},{trap_exit,false},{status,waiting},{heap_size,1598},{stack_size,49},{reductions,2270},{current_stacktrace,[{io,execute_request,2,[{file,"io.erl"},{line,579}]},{io,columns,1,[{file,"io.erl"},{line,121}]},{'Elixir.IEx.Config',columns,0,[{file,"lib/iex/config.ex"},{line,22}]},{'Elixir.IEx.Config',width,0,[{file,"lib/iex/config.ex"},{line,16}]},{'Elixir.Keyword',put_new_lazy,3,[{file,"lib/keyword.ex"},{line,610}]},{'Elixir.IEx.Config',inspect_opts,0,[{file,"lib/iex/config.ex"},{line,113}]},{'Elixir.IEx.Evaluator',io_inspect,1,[{file,"lib/iex/evaluator.ex"},{line,285}]},{'Elixir.IEx.Evaluator',handle_eval,5,[{file,"lib/iex/evaluator.ex"},{line,260}]}]}]
+2019-08-30 14:55:49 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.RabbitmqCli.AMQP:init/1
+    pid: <0.240.0>
+    registered_name: []
+    exception exit: {{{shutdown,{server_initiated_close,406,<<"PRECONDITION_FAILED - inequivalent arg 'type' for exchange 'bol_ex' in vhost '/': received 'fanout' but current is 'direct'">>}},{gen_server,call,[<0.254.0>,{call,{'exchange.declare',0,<<"bol_ex">>,<<"fanout">>,false,true,false,false,false,[]},none,<0.240.0>},60000]}},[{gen_server,call,3,[{file,"gen_server.erl"},{line,223}]},{'Elixir.AMQP.Exchange',declare,4,[{file,"lib/amqp/exchange.ex"},{line,42}]},{'Elixir.RabbitmqCli.AMQP',init,1,[{file,"lib/ampq.ex"},{line,19}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,374}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,342}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}
+    ancestors: [<0.238.0>,<0.76.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.238.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 1513
+  neighbours:
+    neighbour: [{pid,<0.238.0>},{registered_name,[]},{initial_call,{'Elixir.IEx.Evaluator',init,['Argument__1','Argument__2','Argument__3','Argument__4']}},{current_function,{io,execute_request,2}},{ancestors,[<0.76.0>]},{message_queue_len,0},{links,[<0.240.0>]},{trap_exit,false},{status,waiting},{heap_size,1598},{stack_size,49},{reductions,2270},{current_stacktrace,[{io,execute_request,2,[{file,"io.erl"},{line,579}]},{io,columns,1,[{file,"io.erl"},{line,121}]},{'Elixir.IEx.Config',columns,0,[{file,"lib/iex/config.ex"},{line,22}]},{'Elixir.IEx.Config',width,0,[{file,"lib/iex/config.ex"},{line,16}]},{'Elixir.Keyword',put_new_lazy,3,[{file,"lib/keyword.ex"},{line,610}]},{'Elixir.IEx.Config',inspect_opts,0,[{file,"lib/iex/config.ex"},{line,113}]},{'Elixir.IEx.Evaluator',io_inspect,1,[{file,"lib/iex/evaluator.ex"},{line,285}]},{'Elixir.IEx.Evaluator',handle_eval,5,[{file,"lib/iex/evaluator.ex"},{line,260}]}]}]
+2019-08-30 14:57:04 =CRASH REPORT====
+  crasher:
+    initial call: rabbit_writer:enter_mainloop/2
+    pid: <0.264.0>
+    registered_name: []
+    exception error: bad argument: [{erlang,size,[nil],[]},{rabbit_framing_amqp_0_9_1,shortstr_size,1,[{file,"/Users/adilcjr/Projects/elixir/rabbit_tut/deps/rabbit_common/src/rabbit_framing_amqp_0_9_1.erl"},{line,185}]},{rabbit_framing_amqp_0_9_1,encode_method_fields,1,[{file,"/Users/adilcjr/Projects/elixir/rabbit_tut/deps/rabbit_common/src/rabbit_framing_amqp_0_9_1.erl"},{line,1008}]},{rabbit_binary_generator,build_simple_method_frame,3,[{file,"/Users/adilcjr/Projects/elixir/rabbit_tut/deps/rabbit_common/src/rabbit_binary_generator.erl"},{line,59}]},{rabbit_writer,internal_send_command_async,2,[{file,"/Users/adilcjr/Projects/elixir/rabbit_tut/deps/rabbit_common/src/rabbit_writer.erl"},{line,334}]},{rabbit_writer,handle_message,3,[{file,"/Users/adilcjr/Projects/elixir/rabbit_tut/deps/rabbit_common/src/rabbit_writer.erl"},{line,210}]},{rabbit_writer,mainloop1,2,[{file,"/Users/adilcjr/Projects/elixir/rabbit_tut/deps/rabbit_common/src/rabbit_writer.erl"},{line,194}]},{rabbit_writer,mainloop,2,[{file,"/Users/adilcjr/Projects/elixir/rabbit_tut/deps/rabbit_common/src/rabbit_writer.erl"},{line,185}]}]
+    ancestors: [<0.261.0>,<0.255.0>,<0.251.0>,<0.250.0>,amqp_sup,<0.239.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.261.0>]
+    dictionary: [{process_name,{rabbit_writer,{<<"client 127.0.0.1:64192 -> 127.0.0.1:5672">>,1}}}]
+    trap_exit: false
+    status: running
+    heap_size: 2586
+    stack_size: 27
+    reductions: 561
+  neighbours:
+2019-08-30 14:57:04 =SUPERVISOR REPORT====
+     Supervisor: {<0.261.0>,amqp_channel_sup}
+     Context:    child_terminated
+     Reason:     {badarg,[{erlang,size,[nil],[]},{rabbit_framing_amqp_0_9_1,shortstr_size,1,[{file,"/Users/adilcjr/Projects/elixir/rabbit_tut/deps/rabbit_common/src/rabbit_framing_amqp_0_9_1.erl"},{line,185}]},{rabbit_framing_amqp_0_9_1,encode_method_fields,1,[{file,"/Users/adilcjr/Projects/elixir/rabbit_tut/deps/rabbit_common/src/rabbit_framing_amqp_0_9_1.erl"},{line,1008}]},{rabbit_binary_generator,build_simple_method_frame,3,[{file,"/Users/adilcjr/Projects/elixir/rabbit_tut/deps/rabbit_common/src/rabbit_binary_generator.erl"},{line,59}]},{rabbit_writer,internal_send_command_async,2,[{file,"/Users/adilcjr/Projects/elixir/rabbit_tut/deps/rabbit_common/src/rabbit_writer.erl"},{line,334}]},{rabbit_writer,handle_message,3,[{file,"/Users/adilcjr/Projects/elixir/rabbit_tut/deps/rabbit_common/src/rabbit_writer.erl"},{line,210}]},{rabbit_writer,mainloop1,2,[{file,"/Users/adilcjr/Projects/elixir/rabbit_tut/deps/rabbit_common/src/rabbit_writer.erl"},{line,194}]},{rabbit_writer,mainloop,2,[{file,"/Users/adilcjr/Projects/elixir/rabbit_tut/deps/rabbit_common/src/rabbit_writer.erl"},{line,185}]}]}
+     Offender:   [{pid,<0.264.0>},{name,writer},{mfargs,{rabbit_writer,start_link,[#Port<0.12>,1,131072,rabbit_framing_amqp_0_9_1,<0.263.0>,{<<"client 127.0.0.1:64192 -> 127.0.0.1:5672">>,1}]}},{restart_type,transient},{shutdown,30000},{child_type,worker}]
+
+2019-08-30 14:57:04 =SUPERVISOR REPORT====
+     Supervisor: {<0.261.0>,amqp_channel_sup}
+     Context:    shutdown
+     Reason:     reached_max_restart_intensity
+     Offender:   [{pid,<0.264.0>},{name,writer},{mfargs,{rabbit_writer,start_link,[#Port<0.12>,1,131072,rabbit_framing_amqp_0_9_1,<0.263.0>,{<<"client 127.0.0.1:64192 -> 127.0.0.1:5672">>,1}]}},{restart_type,transient},{shutdown,30000},{child_type,worker}]
+

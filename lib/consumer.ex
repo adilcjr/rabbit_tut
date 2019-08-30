@@ -1,4 +1,4 @@
-defmodule Consumer do
+defmodule RabbitmqCli.Consumer do
   use GenServer
   use AMQP
 
@@ -6,8 +6,8 @@ defmodule Consumer do
     GenServer.start_link(__MODULE__, [], [])
   end
 
-  @exchange    "bol_exchange"
-  @queue       "bol_queue"
+  @exchange "bol_exchange"
+  @queue "bol_queue"
   @queue_error "#{@queue}_error"
 
   def init(_opts) do
@@ -45,14 +45,17 @@ defmodule Consumer do
 
   defp setup_queue(chan) do
     {:ok, _} = Queue.declare(chan, @queue_error, durable: true)
+
     # Messages that cannot be delivered to any consumer in the main queue will be routed to the error queue
-    {:ok, _} = Queue.declare(chan, @queue,
-                             durable: true,
-                             arguments: [
-                               {"x-dead-letter-exchange", :longstr, ""},
-                               {"x-dead-letter-routing-key", :longstr, @queue_error}
-                             ]
-                            )
+    {:ok, _} =
+      Queue.declare(chan, @queue,
+        durable: true,
+        arguments: [
+          {"x-dead-letter-exchange", :longstr, ""},
+          {"x-dead-letter-routing-key", :longstr, @queue_error}
+        ]
+      )
+
     :ok = Exchange.fanout(chan, @exchange, durable: true)
     :ok = Queue.bind(chan, @queue, @exchange)
   end
@@ -66,9 +69,8 @@ defmodule Consumer do
     #   IO.puts "#{number} is too big and was rejected."
     # end
 
-    :ok = Basic.ack channel, tag
-    IO.puts "Receive ----> #{payload}"
-
+    :ok = Basic.ack(channel, tag)
+    IO.puts("Receive ----> #{payload}")
   rescue
     # Requeue unless it's a redelivered message.
     # This means we will retry consuming a message once in case of exception
@@ -78,7 +80,7 @@ defmodule Consumer do
     # Make sure you call ack, nack or reject otherwise comsumer will stop
     # receiving messages.
     exception ->
-      :ok = Basic.reject channel, tag, requeue: not redelivered
-      IO.puts "Error converting #{payload}"
+      :ok = Basic.reject(channel, tag, requeue: not redelivered)
+      IO.puts("Error converting #{payload}")
   end
 end

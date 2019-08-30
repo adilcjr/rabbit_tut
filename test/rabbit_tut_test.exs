@@ -3,6 +3,5 @@ defmodule RabbitTutTest do
   doctest RabbitTut
 
   test "greets the world" do
-
   end
 end
