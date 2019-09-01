@@ -16,16 +16,17 @@ defmodule RabbitmqCli.AMQP do
     {:ok, connection} = Connection.open(@host)
     {:ok, channel} = Channel.open(connection)
 
-    Exchange.direct(channel, @exchange, durable: true)
-    {:ok, _} = Queue.declare(channel, @queue_name, exclusive: true)
+    AMQP.Exchange.declare(channel, @exchange_name, :direct)
+    {:ok, _} = Queue.declare(channel, @queue_name, durable: true)
     :ok = Queue.bind(channel, @queue_name, @exchange_name)
     Basic.consume(channel, @queue_name)
 
-    Basic.qos(channel, prefetch_count: 10)
     {:ok, channel}
   end
 
-  # Confirmation sent by the broker after registering this process as a consumer
+  @doc """
+    Confirmation sent by the broker after registering this process as a consumer
+  """
   def handle_info({:basic_consume_ok, %{consumer_tag: _consumer_tag}}, channel) do
     {:noreply, channel}
   end
@@ -49,9 +50,10 @@ defmodule RabbitmqCli.AMQP do
     # For example, "1.1500"
     # We then process the order, depending on actual quantity the product has
 
-    # spawn(fn ->
+    spawn fn ->
       IO.puts("handle_info")
       consume(channel, tag, redelivered, payload)
+    end
 
     {:noreply, channel}
   end
