@@ -4,9 +4,8 @@ defmodule RabbitmqCli.AMQP do
   use AMQP
 
   @host "amqp://guest:guest@localhost"
-  @reconnect_interval 10_000
   @queue_name "bol_queue"
-  @exchange_name "bol_ex"
+  @exchange_name "bol_exchange"
 
   def start_link do
     GenServer.start_link(__MODULE__, [], [])
@@ -31,24 +30,27 @@ defmodule RabbitmqCli.AMQP do
     {:noreply, channel}
   end
 
-  # Sent by the broker when the consumer is unexpectedly cancelled (such as after a queue deletion)
+  @doc """
+    Sent by the broker when the consumer is unexpectedly cancelled (such as after a queue deletion)
+  """
   def handle_info({:basic_cancel, %{consumer_tag: _consumer_tag}}, channel) do
     {:stop, :normal, channel}
   end
 
-  # Confirmation sent by the broker to the consumer process after a Basic.cancel
+  @doc """
+    Confirmation sent by the broker to the consumer process after a Basic.cancel
+  """
   def handle_info({:basic_cancel_ok, %{consumer_tag: _consumer_tag}}, channel) do
     {:noreply, channel}
   end
 
-  # Sent by the broker when a message is delivered
+@doc """
+   Sent by the broker when a message is delivered
+"""
   def handle_info(
         {:basic_deliver, payload, %{delivery_tag: tag, redelivered: redelivered}},
         channel
       ) do
-    # Payload comes in form of String, and contains product id and requested quantity
-    # For example, "1.1500"
-    # We then process the order, depending on actual quantity the product has
 
     spawn fn ->
       IO.puts("handle_info")
